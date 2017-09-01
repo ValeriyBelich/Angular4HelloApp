@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
 selector: 'my-app',
-template: `<p>Количество кликов - {{count}}</p>
+template: `<p>Количество кликов 4 {{count}}</p>
           <button (click)="increase()">Click</button>`
 })
 export class AppComponent { 
